@@ -19,6 +19,12 @@ Use **Awesome Maps & Visualizations** as the display title and `awesome-maps-and
 
 When publishing, copy the description and topics into the repository's GitHub About settings. Local metadata does not change GitHub settings automatically. Do not put a second tag cloud in the README: categories, format labels and source languages provide the browsing structure.
 
+## Licensing
+
+[LICENSE.md](LICENSE.md) defines the scope: original catalogue content and documentation use CC BY 4.0; original code and SVG assets use MIT. Full license texts are in `LICENSES/`. Third-party screenshots and linked works are excluded; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+Keep the licensing section in `scripts/build-catalog.mjs`, not only in the generated README. Preserve screenshot provenance in `data/previews.json`. The repository license is not a substitute for checking the rights to publish third-party previews.
+
 ## Build
 
 Requires Node.js 20 or later.

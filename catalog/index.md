@@ -118,3 +118,5 @@ A compact, searchable view of all 88 entries.
 - [Climate Analogues](<https://fitzlab.shinyapps.io/cityapp/>) — Explore places with climates similar to a city's projected future. *Map · EN · Last available: 2026-09-23*
 - [GeoSpy](<https://geospy.ai/>) — AI tools for interpreting photographs and their geographic context. *Tool · EN · Last available: 2026-09-23*
 - [Cosmograph](<https://cosmograph.app/>) — Explore networks and complex relationships through interactive graphs. *Tool · EN · Last available: 2026-09-23*
+
+[Licensing and third-party notices](../LICENSE.md)

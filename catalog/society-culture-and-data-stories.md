@@ -131,4 +131,4 @@ Visual stories about society, language, economics and everyday life.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)

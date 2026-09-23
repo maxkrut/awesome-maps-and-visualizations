@@ -85,7 +85,7 @@ for (const category of categories) {
     '[← All categories](../README.md) · [Text index](index.md) · [About status dates](../README.md#availability)',
     '', '# ' + category.title, '', category.description, '', '**' + items.length + ' entries** · Click a preview or title to open the original.',
     '', '<details>', '<summary>Compact text view · useful on small screens</summary>', '',
-    ...items.map(listEntry), '', '</details>', '', grid(items, card), '', '[↑ All categories](../README.md)', ''
+    ...items.map(listEntry), '', '</details>', '', grid(items, card), '', '[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)', ''
   ].join('\n'));
 }
 const activeStatuses = links.map(link => statusByUrl.get(link.url)).filter(Boolean);
@@ -110,10 +110,14 @@ await save('README.md', [
   'Checks run once a month through GitHub Actions after the repository is published. See [maintenance instructions](MAINTAINING.md) to refresh availability dates or previews locally.', '',
   '## About this collection', '',
   'Maps sit alongside charts, simulations, photographs and illustrated stories. Each entry has a topic (its category), a format and a source-language label: **EN**, **RU** or **Multilingual**. Small UK/Russian flags accompany EN/RU as visual cues for language, not the origin of a project; multilingual sources use a globe. Historical material may use a specific language code, such as **LA** for Latin, without a national flag. Descriptions are in English; linked websites keep their original languages.', '',
-  'Previews link to the original work. Screenshots and linked content remain the work of their respective creators.', ''
+  'Previews link to the original work. Screenshots and linked content remain the work of their respective creators.', '',
+  '## License', '',
+  'Original catalogue content and documentation: **CC BY 4.0**. Original code and SVG assets: **MIT**. See [LICENSE.md](LICENSE.md) for the scope and full license texts.', '',
+  'Third-party screenshots, maps, images, logos and linked website content are excluded from these licenses. Rights remain with their respective holders; see [Third-party notices](THIRD_PARTY_NOTICES.md).', ''
 ].join('\n'));
 await save('catalog/index.md', [
   '[← Visual directory](../README.md)', '', '# Text index', '', 'A compact, searchable view of all ' + links.length + ' entries.', '',
-  ...categories.flatMap(category => ['## ' + category.title, '', ...links.filter(link => link.category === category.id).map(listEntry), ''])
+  ...categories.flatMap(category => ['## ' + category.title, '', ...links.filter(link => link.category === category.id).map(listEntry), '']),
+  '[Licensing and third-party notices](../LICENSE.md)', ''
 ].join('\n'));
 console.log('Built ' + links.length + ' cards in ' + categories.length + ' categories.');

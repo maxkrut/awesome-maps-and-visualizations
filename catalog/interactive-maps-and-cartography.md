@@ -93,4 +93,4 @@ Projections, unusual perspectives and useful ways to explore a map.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)

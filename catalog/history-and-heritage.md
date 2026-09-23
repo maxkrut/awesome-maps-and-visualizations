@@ -190,4 +190,4 @@ Historical maps, visual timelines, archives and cultural collections.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)

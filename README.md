@@ -75,3 +75,9 @@ Checks run once a month through GitHub Actions after the repository is published
 Maps sit alongside charts, simulations, photographs and illustrated stories. Each entry has a topic (its category), a format and a source-language label: **EN**, **RU** or **Multilingual**. Small UK/Russian flags accompany EN/RU as visual cues for language, not the origin of a project; multilingual sources use a globe. Historical material may use a specific language code, such as **LA** for Latin, without a national flag. Descriptions are in English; linked websites keep their original languages.
 
 Previews link to the original work. Screenshots and linked content remain the work of their respective creators.
+
+## License
+
+Original catalogue content and documentation: **CC BY 4.0**. Original code and SVG assets: **MIT**. See [LICENSE.md](LICENSE.md) for the scope and full license texts.
+
+Third-party screenshots, maps, images, logos and linked website content are excluded from these licenses. Rights remain with their respective holders; see [Third-party notices](THIRD_PARTY_NOTICES.md).

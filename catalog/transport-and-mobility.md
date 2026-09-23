@@ -112,4 +112,4 @@ Aircraft, ships, trains and the infrastructure connecting the world.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)

@@ -60,4 +60,4 @@ Panoramas, city walks, radio stations and windows onto other places.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)

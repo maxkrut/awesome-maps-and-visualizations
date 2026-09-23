@@ -86,4 +86,4 @@ Stars, satellites and visual journeys through the universe.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)

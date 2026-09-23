@@ -36,3 +36,9 @@ Unavailable previews are represented explicitly. Do not substitute fabricated im
 ## Add a category
 
 Add its ID, English title, short description and preferred cover-entry ID to `data/categories.json`. Use a new category only when several entries need it.
+
+## Licensing contributions
+
+By submitting a contribution, you agree to license your original catalogue content and documentation under CC BY 4.0, and your original code and SVG assets under MIT, as scoped in [LICENSE.md](LICENSE.md). Only contribute material you have the right to submit under those terms.
+
+Third-party screenshots and other external material are excluded from these grants. Preserve their source information and identify the applicable license, permission, or other legal basis for including them. Do not treat a source link or a screenshot capture as permission. See [Third-party notices](THIRD_PARTY_NOTICES.md).

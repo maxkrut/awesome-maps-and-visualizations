@@ -93,4 +93,4 @@ Open datasets, geographic portals and tools for discovering places.
 </tr>
 </table>
 
-[↑ All categories](../README.md)
+[↑ All categories](../README.md) · [Licensing and third-party notices](../LICENSE.md)
