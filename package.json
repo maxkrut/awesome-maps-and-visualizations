@@ -1,0 +1,21 @@
+{
+  "name": "awesome-maps-and-visualizations",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A curated collection of maps, data stories, and visual experiments — with compact previews and last-available dates.",
+  "keywords": ["awesome","awesome-list","maps","interactive-maps","cartography","data-visualization","interactive-visualization","data-storytelling","historical-maps","geospatial","virtual-tours","open-data"],
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-catalog.mjs",
+    "test": "node scripts/validate-catalog.mjs",
+    "capture": "node scripts/capture-previews.mjs",
+    "preview": "node scripts/preview.mjs",
+    "check-links": "pwsh -NoProfile -File scripts/check_links.ps1"
+  },
+  "devDependencies": {
+    "@playwright/cli": "0.1.21",
+    "github-markdown-css": "5.9.0",
+    "marked": "18.0.14",
+    "playwright": "1.63.0"
+  }
+}

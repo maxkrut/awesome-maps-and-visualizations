@@ -1,0 +1,619 @@
+[
+  {
+    "url": "https://merkator.tass.ru/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://sitinshade.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://wikimapia.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://thetruesize.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.openstreetmap.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://map.meurisse.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://osmnames.org/download/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://opensource.foursquare.com/os-places/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://labs.strava.com/heatmap/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.flightradar24.com/",
+    "state": "failed",
+    "http_status": 404,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://chronotrains-eu.vercel.app/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://avherald.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.marinetraffic.com/ru/ais/home/",
+    "state": "restricted",
+    "http_status": 403,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://wikimap.wiki/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://railway-planner.net/?evlang=en",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://nakarte.me/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://aeris.edbn.me/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.naturalearthdata.com/downloads/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.flightconnections.com/ru",
+    "state": "ok",
+    "http_status": 202,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://geoportal.hse.ru/portal/apps/sites/#/geodata/pages/geoprojects",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://frexosm.ru/basin/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://tochno.st/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://webcensus.ru/%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://dgearth.ru/russia/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://dinosaurpictures.org/ancient-earth",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://rigea.maps.arcgis.com/apps/MapJournal/index.html?appid=b7810b4c1e4a4ffcb3049559ddc70b27",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://fgiscs.minstroyrf.ru/monitoring/quarries",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://how-old-is-this.house/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Carta_Marina.jpeg",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.davidrumsey.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://hanshack.com/point-in-history/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://battles.nodegoat.net/viewer.p/23/385/scenario/1/geo/fullscreen",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://varf.ru/metro3d/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://www.oldmapsonline.org/en/history/people",
+    "state": "restricted",
+    "http_status": 403,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://metro2.org/msk",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://theculturetrip.com/europe/germany/articles/the-most-scenic-train-journeys-in-germany/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://calculatingempires.net/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.roads.ru/map-index/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.paxhistoria.co/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://yandex.ru/company/researches/2021/oikonyms",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://digitalcollections.nypl.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://d-place.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://native-land.ca/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.businessinsider.com/european-maps-showing-origins-of-common-words-2013-11",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://senseable.mit.edu/stockholm-flows/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.gapminder.org/dollar-street/matrix",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/",
+    "state": "restricted",
+    "http_status": 403,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "http://www.worldlicenseplates.com/hp.html",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.ethnologue.com/",
+    "state": "restricted",
+    "http_status": 403,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://oec.world/en/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://atlas.cid.harvard.edu/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.ocearch.org/tracker/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.iqair.com/earth?nav",
+    "state": "restricted",
+    "http_status": 429,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "http://earth.nullschool.net/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://www.lightningmaps.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://basemap.ru/age/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://map.runivers.ru/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://www.ventusky.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://heavens-above.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://stars.chromeexperiments.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:45:02Z",
+    "last_ok": "2026-09-23",
+    "check_method": "browser"
+  },
+  {
+    "url": "http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/",
+    "state": "restricted",
+    "http_status": 403,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "http://www.ustream.tv/channel/iss-hdev-payload",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://platform.leolabs.space/visualizations/leo#view=originCountry",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://redshiftsky.com/redshift-9/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://stuffin.space/",
+    "state": "failed",
+    "http_status": 301,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://htwins.net/scale2/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://neal.fun/wonders-of-street-view/",
+    "state": "restricted",
+    "http_status": 403,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "https://www.citywalki.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://radio.garden/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://kuula.co/explore",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://alltheviews.world/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://timestripe.com/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://tjukanov.org/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://w3reality.github.io/three-geo/examples/geo-viewer/io/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://github.com/luka1199/geo-heatmap",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://geospy.ai/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://cosmograph.app/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://fitzlab.shinyapps.io/cityapp/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://shademap.app/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://russiainphoto.ru/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.retromap.ru/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://hrono.ru/proekty/ostu/europe.html",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://dev.kartfak.ru/bndmoscow/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "http://www.krasnoyeznamya.ru/picm.php?vrub=rm&pid=17&picid=99",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": null
+  },
+  {
+    "url": "http://nalichniki.com/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://3dplatforma.ru/prokudingorsky",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://ethno.histography.ru/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  },
+  {
+    "url": "https://sosedi.tigers.family/",
+    "state": "failed",
+    "http_status": null,
+    "checked_at": "2026-09-23T17:32:04Z",
+    "last_ok": "2026-09-23"
+  }
+]

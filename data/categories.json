@@ -1,0 +1,56 @@
+[
+  {
+    "id": "interactive-maps-and-cartography",
+    "title": "Maps & Cartography",
+    "description": "Projections, unusual perspectives and useful ways to explore a map.",
+    "cover": "nakarte"
+  },
+  {
+    "id": "geodata-and-portals",
+    "title": "Data & Geoportals",
+    "description": "Open datasets, geographic portals and tools for discovering places.",
+    "cover": "river-basins"
+  },
+  {
+    "id": "transport-and-mobility",
+    "title": "Transport & Mobility",
+    "description": "Aircraft, ships, trains and the infrastructure connecting the world.",
+    "cover": "metro2"
+  },
+  {
+    "id": "history-and-heritage",
+    "title": "History & Heritage",
+    "description": "Historical maps, visual timelines, archives and cultural collections.",
+    "cover": "carta-marina"
+  },
+  {
+    "id": "society-culture-and-data-stories",
+    "title": "Society & Culture",
+    "description": "Visual stories about society, language, economics and everyday life.",
+    "cover": "economic-atlas"
+  },
+  {
+    "id": "weather-nature-and-earth",
+    "title": "Nature & Weather",
+    "description": "Weather, wildlife, air quality and the changing natural world.",
+    "cover": "earth-wind"
+  },
+  {
+    "id": "space",
+    "title": "Space & Scale",
+    "description": "Stars, satellites and visual journeys through the universe.",
+    "cover": "leolabs"
+  },
+  {
+    "id": "virtual-exploration",
+    "title": "Virtual Exploration",
+    "description": "Panoramas, city walks, radio stations and windows onto other places.",
+    "cover": "kuula"
+  },
+  {
+    "id": "tools-and-experiments",
+    "title": "Tools & Experiments",
+    "description": "Creative tools, network visualizations and cartographic experiments.",
+    "cover": "cosmograph"
+  }
+]

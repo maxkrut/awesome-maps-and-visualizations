@@ -1,0 +1,39 @@
+{
+  "name": "awesome-maps-and-visualizations",
+  "title": "Awesome Maps & Visualizations",
+  "description": "A curated collection of maps, data stories, and visual experiments — with compact previews and last-available dates.",
+  "tagline": "Discover new ways to see the world.",
+  "topics": [
+    "awesome",
+    "awesome-list",
+    "maps",
+    "interactive-maps",
+    "cartography",
+    "data-visualization",
+    "interactive-visualization",
+    "data-storytelling",
+    "historical-maps",
+    "geospatial",
+    "virtual-tours",
+    "open-data"
+  ],
+  "formats": [
+    "Map",
+    "Visualization",
+    "Timeline",
+    "Simulation",
+    "Virtual Tour",
+    "Collection",
+    "Article",
+    "Dataset",
+    "Tool",
+    "Image",
+    "Video"
+  ],
+  "languages": {
+    "EN": "English",
+    "RU": "Russian",
+    "Multilingual": "Multiple languages",
+    "LA": "Latin"
+  }
+}

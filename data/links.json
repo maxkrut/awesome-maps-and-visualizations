@@ -1,0 +1,794 @@
+[
+  {
+    "id": "mercator",
+    "category": "interactive-maps-and-cartography",
+    "title": "Mercator: A Brave Flat World",
+    "description": "A visual story about maps, projections and how we picture the world.",
+    "type": "Visualization",
+    "language": "RU",
+    "url": "https://merkator.tass.ru/"
+  },
+  {
+    "id": "openstreetmap",
+    "category": "interactive-maps-and-cartography",
+    "title": "OpenStreetMap",
+    "description": "Explore the world through an open, community-built map.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "http://www.openstreetmap.org/"
+  },
+  {
+    "id": "true-size",
+    "category": "interactive-maps-and-cartography",
+    "title": "The True Size Of",
+    "description": "Drag countries across the globe to compare their true size.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://thetruesize.com/"
+  },
+  {
+    "id": "wikimap",
+    "category": "interactive-maps-and-cartography",
+    "title": "Wikimap",
+    "description": "Browse Wikipedia articles by their location on a world map.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://wikimap.wiki/"
+  },
+  {
+    "id": "wikimapia",
+    "category": "interactive-maps-and-cartography",
+    "title": "Wikimapia",
+    "description": "Explore places and local knowledge contributed by the community.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://wikimapia.org/"
+  },
+  {
+    "id": "distance-calculator",
+    "category": "interactive-maps-and-cartography",
+    "title": "Distance Calculator",
+    "description": "Draw a route on the map and measure the distance between points.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "https://map.meurisse.org/"
+  },
+  {
+    "id": "sit-in-shade",
+    "category": "interactive-maps-and-cartography",
+    "title": "Sit in Shade",
+    "description": "Find the shadier side of a vehicle for your next journey.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "https://sitinshade.com/"
+  },
+  {
+    "id": "nakarte",
+    "category": "interactive-maps-and-cartography",
+    "title": "Nakarte",
+    "description": "Explore topographic maps, compare map layers and plan routes.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://nakarte.me/"
+  },
+  {
+    "id": "strava-heatmap",
+    "category": "interactive-maps-and-cartography",
+    "title": "Strava Global Heatmap",
+    "description": "See where people run, ride and explore through aggregated activity.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://labs.strava.com/heatmap/"
+  },
+  {
+    "id": "hse-geoportal",
+    "category": "geodata-and-portals",
+    "title": "HSE Geodata Projects",
+    "description": "Research projects and geospatial resources from HSE University.",
+    "type": "Collection",
+    "language": "RU",
+    "url": "https://geoportal.hse.ru/portal/apps/sites/#/geodata/pages/geoprojects"
+  },
+  {
+    "id": "river-basins",
+    "category": "geodata-and-portals",
+    "title": "Russian River Basins",
+    "description": "Explore Russia's drainage basins and river networks.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://frexosm.ru/basin/"
+  },
+  {
+    "id": "osmnames",
+    "category": "geodata-and-portals",
+    "title": "OSMNames",
+    "description": "Download place names and geographic search data based on OpenStreetMap.",
+    "type": "Dataset",
+    "language": "EN",
+    "url": "http://osmnames.org/download/"
+  },
+  {
+    "id": "webcensus-data",
+    "category": "geodata-and-portals",
+    "title": "WebCensus · Data",
+    "description": "Population data from the Virtual Population of Russia project.",
+    "type": "Dataset",
+    "language": "RU",
+    "url": "http://webcensus.ru/%d0%b4%d0%b0%d0%bd%d0%bd%d1%8b%d0%b5/"
+  },
+  {
+    "id": "tochno",
+    "category": "geodata-and-portals",
+    "title": "To Be Precise",
+    "description": "Data and research about social issues across Russian regions.",
+    "type": "Dataset",
+    "language": "RU",
+    "url": "https://tochno.st/"
+  },
+  {
+    "id": "russia-in-numbers",
+    "category": "geodata-and-portals",
+    "title": "Russia in Numbers",
+    "description": "Explore Russian regional statistics through a geographic interface.",
+    "type": "Visualization",
+    "language": "RU",
+    "url": "https://dgearth.ru/russia/"
+  },
+  {
+    "id": "foursquare-places",
+    "category": "geodata-and-portals",
+    "title": "Foursquare OS Places",
+    "description": "Open point-of-interest data for mapping and spatial analysis.",
+    "type": "Dataset",
+    "language": "EN",
+    "url": "https://opensource.foursquare.com/os-places/"
+  },
+  {
+    "id": "natural-earth",
+    "category": "geodata-and-portals",
+    "title": "Natural Earth",
+    "description": "Free vector and raster basemap data at several map scales.",
+    "type": "Dataset",
+    "language": "EN",
+    "url": "https://www.naturalearthdata.com/downloads/"
+  },
+  {
+    "id": "construction-quarries",
+    "category": "geodata-and-portals",
+    "title": "Construction Materials Map",
+    "description": "Quarries and construction-material sources in the FGIS CS portal.",
+    "type": "Dataset",
+    "language": "RU",
+    "url": "https://fgiscs.minstroyrf.ru/monitoring/quarries"
+  },
+  {
+    "id": "flightradar24",
+    "category": "transport-and-mobility",
+    "title": "Flightradar24",
+    "description": "Follow aircraft around the world on a live flight map.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "http://www.flightradar24.com/"
+  },
+  {
+    "id": "chronotrains",
+    "category": "transport-and-mobility",
+    "title": "Chronotrains · Original App",
+    "description": "Explore how far you can travel by train from European stations.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://chronotrains-eu.vercel.app/"
+  },
+  {
+    "id": "marinetraffic",
+    "category": "transport-and-mobility",
+    "title": "MarineTraffic",
+    "description": "Explore ship positions, ports and maritime traffic.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "http://www.marinetraffic.com/ru/ais/home/"
+  },
+  {
+    "id": "aviation-herald",
+    "category": "transport-and-mobility",
+    "title": "The Aviation Herald",
+    "description": "Aviation incident reports and operational news.",
+    "type": "Collection",
+    "language": "EN",
+    "url": "http://avherald.com/"
+  },
+  {
+    "id": "moscow-metro-3d",
+    "category": "transport-and-mobility",
+    "title": "Moscow Metro in 3D",
+    "description": "A three-dimensional model of the Moscow Metro network.",
+    "type": "Visualization",
+    "language": "RU",
+    "url": "https://varf.ru/metro3d/"
+  },
+  {
+    "id": "railway-planner",
+    "category": "transport-and-mobility",
+    "title": "Railway Planner",
+    "description": "A railway-planning tool from the saved Eisenbahn-Planer project.",
+    "type": "Tool",
+    "language": "Multilingual",
+    "url": "http://railway-planner.net/?evlang=en"
+  },
+  {
+    "id": "metro2",
+    "category": "transport-and-mobility",
+    "title": "Metro2 · Moscow",
+    "description": "An interactive view of Moscow's metro system.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://metro2.org/msk"
+  },
+  {
+    "id": "scenic-trains",
+    "category": "transport-and-mobility",
+    "title": "Scenic Train Journeys",
+    "description": "An illustrated guide to scenic railway journeys in Germany.",
+    "type": "Article",
+    "language": "EN",
+    "url": "https://theculturetrip.com/europe/germany/articles/the-most-scenic-train-journeys-in-germany/"
+  },
+  {
+    "id": "roads",
+    "category": "transport-and-mobility",
+    "title": "Road Construction in Russia",
+    "description": "Maps of road projects, junctions and infrastructure works.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://www.roads.ru/map-index/"
+  },
+  {
+    "id": "aeris",
+    "category": "transport-and-mobility",
+    "title": "Aeris",
+    "description": "Watch aircraft move through a real-time 3D flight visualization.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://aeris.edbn.me/"
+  },
+  {
+    "id": "flightconnections",
+    "category": "transport-and-mobility",
+    "title": "FlightConnections",
+    "description": "Explore airline routes and connections around the world.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://www.flightconnections.com/ru"
+  },
+  {
+    "id": "building-age",
+    "category": "history-and-heritage",
+    "title": "Building Ages in Russia",
+    "description": "Discover when buildings were constructed through a city map.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://basemap.ru/age/"
+  },
+  {
+    "id": "russian-borders",
+    "category": "history-and-heritage",
+    "title": "Russia's Borders, 1462–2018",
+    "description": "Explore how Russia's borders changed over time.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://map.runivers.ru/"
+  },
+  {
+    "id": "russia-in-photos",
+    "category": "history-and-heritage",
+    "title": "Russia in Photographs",
+    "description": "Search an archive of historical photographs of Russia.",
+    "type": "Collection",
+    "language": "RU",
+    "url": "https://russiainphoto.ru/"
+  },
+  {
+    "id": "retromap",
+    "category": "history-and-heritage",
+    "title": "Retromap",
+    "description": "Explore historical maps of Russian cities and other places.",
+    "type": "Map",
+    "language": "RU",
+    "url": "http://www.retromap.ru/"
+  },
+  {
+    "id": "viking-atlas",
+    "category": "history-and-heritage",
+    "title": "An Atlas of the Vikings",
+    "description": "A map-based journey through Viking history.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "http://rigea.maps.arcgis.com/apps/MapJournal/index.html?appid=b7810b4c1e4a4ffcb3049559ddc70b27"
+  },
+  {
+    "id": "ancient-earth",
+    "category": "history-and-heritage",
+    "title": "Ancient Earth",
+    "description": "See how continents and familiar places moved through geological time.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://dinosaurpictures.org/ancient-earth"
+  },
+  {
+    "id": "nodegoat-battles",
+    "category": "history-and-heritage",
+    "title": "A History of Battles",
+    "description": "Explore historical battles through Nodegoat's geographic viewer.",
+    "type": "Map",
+    "language": "EN",
+    "url": "http://battles.nodegoat.net/viewer.p/23/385/scenario/1/geo/fullscreen"
+  },
+  {
+    "id": "carta-marina",
+    "category": "history-and-heritage",
+    "title": "Carta Marina",
+    "description": "A high-resolution image of the illustrated historical map.",
+    "type": "Map",
+    "language": "LA",
+    "url": "http://upload.wikimedia.org/wikipedia/commons/e/ea/Carta_Marina.jpeg"
+  },
+  {
+    "id": "david-rumsey",
+    "category": "history-and-heritage",
+    "title": "David Rumsey Map Collection",
+    "description": "Browse a large collection of historical maps and atlases.",
+    "type": "Collection",
+    "language": "EN",
+    "url": "https://www.davidrumsey.com/"
+  },
+  {
+    "id": "house-age",
+    "category": "history-and-heritage",
+    "title": "How Old Is This House?",
+    "description": "Explore the ages of buildings in Saint Petersburg.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://how-old-is-this.house/"
+  },
+  {
+    "id": "point-in-history",
+    "category": "history-and-heritage",
+    "title": "Point in History",
+    "description": "A visual exploration of historical places by Hans Hack.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://hanshack.com/point-in-history/"
+  },
+  {
+    "id": "history-of-europe",
+    "category": "history-and-heritage",
+    "title": "The History of Europe",
+    "description": "Historical reference material about Europe's changing geography.",
+    "type": "Article",
+    "language": "RU",
+    "url": "http://hrono.ru/proekty/ostu/europe.html"
+  },
+  {
+    "id": "timemap",
+    "category": "history-and-heritage",
+    "title": "TimeMap",
+    "description": "Explore historical people and places on a map with a timeline.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://www.oldmapsonline.org/en/history/people"
+  },
+  {
+    "id": "moscow-borders",
+    "category": "history-and-heritage",
+    "title": "Moscow's Changing Borders",
+    "description": "Trace the expansion of Moscow through historical boundaries.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://dev.kartfak.ru/bndmoscow/"
+  },
+  {
+    "id": "calculating-empires",
+    "category": "history-and-heritage",
+    "title": "Calculating Empires",
+    "description": "A visual genealogy of technology and power across five centuries.",
+    "type": "Timeline",
+    "language": "EN",
+    "url": "https://calculatingempires.net/"
+  },
+  {
+    "id": "exhibition-poster",
+    "category": "history-and-heritage",
+    "title": "Historical Exhibition Poster",
+    "description": "A saved poster for an international brewing and machinery exhibition.",
+    "type": "Image",
+    "language": "RU",
+    "url": "http://www.krasnoyeznamya.ru/picm.php?vrub=rm&pid=17&picid=99"
+  },
+  {
+    "id": "nalichniki",
+    "category": "history-and-heritage",
+    "title": "Nalichniki",
+    "description": "A photographic collection of traditional carved wooden window frames.",
+    "type": "Collection",
+    "language": "RU",
+    "url": "http://nalichniki.com/"
+  },
+  {
+    "id": "nypl-collections",
+    "category": "history-and-heritage",
+    "title": "NYPL Digital Collections",
+    "description": "Explore digitized photographs, maps, prints and historical materials.",
+    "type": "Collection",
+    "language": "EN",
+    "url": "http://digitalcollections.nypl.org/"
+  },
+  {
+    "id": "prokudin-gorsky",
+    "category": "history-and-heritage",
+    "title": "Prokudin-Gorsky · Virtual Museum",
+    "description": "A virtual exhibition dedicated to Prokudin-Gorsky's photography.",
+    "type": "Virtual Tour",
+    "language": "RU",
+    "url": "https://3dplatforma.ru/prokudingorsky"
+  },
+  {
+    "id": "pax-historia",
+    "category": "history-and-heritage",
+    "title": "Pax Historia",
+    "description": "Explore alternative history through a map-based strategy experience.",
+    "type": "Simulation",
+    "language": "EN",
+    "url": "https://www.paxhistoria.co/"
+  },
+  {
+    "id": "russian-place-names",
+    "category": "society-culture-and-data-stories",
+    "title": "Russian Place Names",
+    "description": "Yandex's visual exploration of the names of Russian settlements.",
+    "type": "Visualization",
+    "language": "RU",
+    "url": "https://yandex.ru/company/researches/2021/oikonyms"
+  },
+  {
+    "id": "stockholm-flows",
+    "category": "society-culture-and-data-stories",
+    "title": "Stockholm Flows",
+    "description": "MIT Senseable City Lab's visualization of movement in Stockholm.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://senseable.mit.edu/stockholm-flows/"
+  },
+  {
+    "id": "d-place",
+    "category": "society-culture-and-data-stories",
+    "title": "D-PLACE",
+    "description": "Explore cultural, linguistic and environmental data about societies.",
+    "type": "Dataset",
+    "language": "EN",
+    "url": "https://d-place.org/"
+  },
+  {
+    "id": "word-origins",
+    "category": "society-culture-and-data-stories",
+    "title": "The Geography of Words",
+    "description": "Illustrated maps of the origins of common European words.",
+    "type": "Article",
+    "language": "EN",
+    "url": "http://www.businessinsider.com/european-maps-showing-origins-of-common-words-2013-11"
+  },
+  {
+    "id": "native-land",
+    "category": "society-culture-and-data-stories",
+    "title": "Native Land Digital",
+    "description": "Explore Indigenous territories, languages and treaties.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://native-land.ca/"
+  },
+  {
+    "id": "peoples-of-russia",
+    "category": "society-culture-and-data-stories",
+    "title": "Peoples of Russia",
+    "description": "An interactive map of the peoples and cultures of Russia.",
+    "type": "Map",
+    "language": "RU",
+    "url": "https://ethno.histography.ru/"
+  },
+  {
+    "id": "day-in-america",
+    "category": "society-culture-and-data-stories",
+    "title": "A Day in the Life of Americans",
+    "description": "An animated simulation of how 1,000 Americans spend their day.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/"
+  },
+  {
+    "id": "dollar-street",
+    "category": "society-culture-and-data-stories",
+    "title": "Dollar Street",
+    "description": "Compare everyday homes and possessions across income levels.",
+    "type": "Visualization",
+    "language": "Multilingual",
+    "url": "https://www.gapminder.org/dollar-street/matrix"
+  },
+  {
+    "id": "ethnologue",
+    "category": "society-culture-and-data-stories",
+    "title": "Ethnologue",
+    "description": "Explore information about the world's languages.",
+    "type": "Dataset",
+    "language": "EN",
+    "url": "http://www.ethnologue.com/"
+  },
+  {
+    "id": "license-plates",
+    "category": "society-culture-and-data-stories",
+    "title": "License Plates of the World",
+    "description": "A visual reference to vehicle registration plates around the world.",
+    "type": "Collection",
+    "language": "EN",
+    "url": "http://www.worldlicenseplates.com/hp.html"
+  },
+  {
+    "id": "oec",
+    "category": "society-culture-and-data-stories",
+    "title": "Economic Complexity Observatory",
+    "description": "Visualize trade flows, products and economic relationships.",
+    "type": "Visualization",
+    "language": "Multilingual",
+    "url": "https://oec.world/en/"
+  },
+  {
+    "id": "economic-atlas",
+    "category": "society-culture-and-data-stories",
+    "title": "Atlas of Economic Complexity",
+    "description": "Explore countries' exports and economic capabilities.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://atlas.cid.harvard.edu/"
+  },
+  {
+    "id": "mythical-neighbors",
+    "category": "society-culture-and-data-stories",
+    "title": "Your Mythical Neighbor",
+    "description": "Explore the magical creatures and folklore of Russia.",
+    "type": "Visualization",
+    "language": "RU",
+    "url": "https://sosedi.tigers.family/"
+  },
+  {
+    "id": "ocearch",
+    "category": "weather-nature-and-earth",
+    "title": "OCEARCH Shark Tracker",
+    "description": "Follow tagged sharks and other marine animals.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://www.ocearch.org/tracker/"
+  },
+  {
+    "id": "airvisual",
+    "category": "weather-nature-and-earth",
+    "title": "AirVisual Earth",
+    "description": "Explore air pollution on an interactive three-dimensional globe.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://www.iqair.com/earth?nav"
+  },
+  {
+    "id": "earth-wind",
+    "category": "weather-nature-and-earth",
+    "title": "Earth Wind Map",
+    "description": "Explore animated wind, ocean and weather patterns on a globe.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "http://earth.nullschool.net/"
+  },
+  {
+    "id": "lightning",
+    "category": "weather-nature-and-earth",
+    "title": "LightningMaps",
+    "description": "Watch lightning activity around the world.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://www.lightningmaps.org/"
+  },
+  {
+    "id": "ventusky",
+    "category": "weather-nature-and-earth",
+    "title": "Ventusky",
+    "description": "Explore animated weather forecasts and atmospheric conditions.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://www.ventusky.com/"
+  },
+  {
+    "id": "shademap",
+    "category": "weather-nature-and-earth",
+    "title": "ShadeMap",
+    "description": "Simulate shadows cast by buildings, trees and terrain.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://shademap.app/"
+  },
+  {
+    "id": "stars",
+    "category": "space",
+    "title": "100,000 Stars",
+    "description": "Explore an interactive visualization of our stellar neighborhood.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://stars.chromeexperiments.com/"
+  },
+  {
+    "id": "heavens-above",
+    "category": "space",
+    "title": "Heavens-Above",
+    "description": "Find satellite passes and observing information for your location.",
+    "type": "Tool",
+    "language": "Multilingual",
+    "url": "http://heavens-above.com/"
+  },
+  {
+    "id": "active-satellites",
+    "category": "space",
+    "title": "Every Active Satellite",
+    "description": "A Quartz visual story about satellites orbiting Earth.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/"
+  },
+  {
+    "id": "iss-stream",
+    "category": "space",
+    "title": "ISS Earth Stream",
+    "description": "A saved link to the International Space Station's Earth-viewing stream.",
+    "type": "Video",
+    "language": "EN",
+    "url": "http://www.ustream.tv/channel/iss-hdev-payload"
+  },
+  {
+    "id": "leolabs",
+    "category": "space",
+    "title": "LeoLabs",
+    "description": "Explore tracked objects in low Earth orbit.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://platform.leolabs.space/visualizations/leo#view=originCountry"
+  },
+  {
+    "id": "redshift",
+    "category": "space",
+    "title": "Redshift 9",
+    "description": "Astronomy and planetarium software for exploring the night sky.",
+    "type": "Tool",
+    "language": "Multilingual",
+    "url": "https://redshiftsky.com/redshift-9/"
+  },
+  {
+    "id": "stuff-in-space",
+    "category": "space",
+    "title": "Stuff in Space",
+    "description": "Explore a three-dimensional view of objects orbiting Earth.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "http://stuffin.space/"
+  },
+  {
+    "id": "scale-of-universe",
+    "category": "space",
+    "title": "The Scale of the Universe 2",
+    "description": "Zoom between the very small and the very large.",
+    "type": "Visualization",
+    "language": "Multilingual",
+    "url": "http://htwins.net/scale2/"
+  },
+  {
+    "id": "wonders-street-view",
+    "category": "virtual-exploration",
+    "title": "Wonders of Street View",
+    "description": "Discover unusual places captured by street-level panoramas.",
+    "type": "Virtual Tour",
+    "language": "EN",
+    "url": "https://neal.fun/wonders-of-street-view/"
+  },
+  {
+    "id": "citywalki",
+    "category": "virtual-exploration",
+    "title": "Citywalki",
+    "description": "Take virtual walking tours through cities around the world.",
+    "type": "Virtual Tour",
+    "language": "EN",
+    "url": "https://www.citywalki.com/"
+  },
+  {
+    "id": "radio-garden",
+    "category": "virtual-exploration",
+    "title": "Radio Garden",
+    "description": "Explore the globe by listening to local radio stations.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://radio.garden/"
+  },
+  {
+    "id": "kuula",
+    "category": "virtual-exploration",
+    "title": "Kuula",
+    "description": "Browse immersive 360-degree panoramas and virtual tours.",
+    "type": "Virtual Tour",
+    "language": "EN",
+    "url": "https://kuula.co/explore"
+  },
+  {
+    "id": "all-the-views",
+    "category": "virtual-exploration",
+    "title": "All The Views",
+    "description": "Explore a collection of views and places from around the world.",
+    "type": "Virtual Tour",
+    "language": "EN",
+    "url": "https://alltheviews.world/"
+  },
+  {
+    "id": "timestripe",
+    "category": "tools-and-experiments",
+    "title": "Timestripe",
+    "description": "A visual planner for goals, projects and time horizons.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "http://timestripe.com/"
+  },
+  {
+    "id": "topi-tjukanov",
+    "category": "tools-and-experiments",
+    "title": "Topi Tjukanov",
+    "description": "A portfolio of cartographic experiments and visual storytelling.",
+    "type": "Collection",
+    "language": "EN",
+    "url": "https://tjukanov.org/"
+  },
+  {
+    "id": "geo-heatmap",
+    "category": "tools-and-experiments",
+    "title": "Geo Heatmap",
+    "description": "Python and Folium heatmaps for supported location-history exports.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "https://github.com/luka1199/geo-heatmap"
+  },
+  {
+    "id": "three-geo",
+    "category": "tools-and-experiments",
+    "title": "three-geo",
+    "description": "A browser-based experiment in three-dimensional terrain visualization.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "https://w3reality.github.io/three-geo/examples/geo-viewer/io/"
+  },
+  {
+    "id": "cityapp",
+    "category": "tools-and-experiments",
+    "title": "Climate Analogues",
+    "description": "Explore places with climates similar to a city's projected future.",
+    "type": "Map",
+    "language": "EN",
+    "url": "https://fitzlab.shinyapps.io/cityapp/"
+  },
+  {
+    "id": "geospy",
+    "category": "tools-and-experiments",
+    "title": "GeoSpy",
+    "description": "AI tools for interpreting photographs and their geographic context.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "https://geospy.ai/"
+  },
+  {
+    "id": "cosmograph",
+    "category": "tools-and-experiments",
+    "title": "Cosmograph",
+    "description": "Explore networks and complex relationships through interactive graphs.",
+    "type": "Tool",
+    "language": "EN",
+    "url": "https://cosmograph.app/"
+  }
+]
