@@ -2,7 +2,7 @@
 
 A curated collection of maps, data stories, and visual experiments — with compact previews and last-available dates.
 
-**88 links · 9 categories** · **Checked 2026-09-23**
+**88 links · 9 categories** · **Checked 2026-10-01**
 
 [Browse the text index](catalog/index.md) · [Suggest a link](CONTRIBUTING.md) · [How to maintain this collection](MAINTAINING.md)
 

@@ -9,14 +9,14 @@ Stars, satellites and visual journeys through the universe.
 <details>
 <summary>Compact text view · useful on small screens</summary>
 
-- [100,000 Stars](<https://stars.chromeexperiments.com/>) — Explore an interactive visualization of our stellar neighborhood. *Visualization · EN · Last available: 2026-09-23*
+- [100,000 Stars](<https://stars.chromeexperiments.com/>) — Explore an interactive visualization of our stellar neighborhood. *Visualization · EN · Last available: 2026-10-01*
 - [Heavens-Above](<http://heavens-above.com/>) — Find satellite passes and observing information for your location. *Tool · Multilingual · Last available: 2026-09-23*
-- [Every Active Satellite](<http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/>) — A Quartz visual story about satellites orbiting Earth. *Visualization · EN · Not verified yet*
-- [ISS Earth Stream](<http://www.ustream.tv/channel/iss-hdev-payload>) — A saved link to the International Space Station's Earth-viewing stream. *Video · EN · Last available: 2026-09-23*
-- [LeoLabs](<https://platform.leolabs.space/visualizations/leo#view=originCountry>) — Explore tracked objects in low Earth orbit. *Visualization · EN · Last available: 2026-09-23*
-- [Redshift 9](<https://redshiftsky.com/redshift-9/>) — Astronomy and planetarium software for exploring the night sky. *Tool · Multilingual · Last available: 2026-09-23*
+- [Every Active Satellite](<http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/>) — A Quartz visual story about satellites orbiting Earth. *Visualization · EN · Last available: 2026-10-01*
+- [ISS Earth Stream](<http://www.ustream.tv/channel/iss-hdev-payload>) — A saved link to the International Space Station's Earth-viewing stream. *Video · EN · Last available: 2026-10-01*
+- [LeoLabs](<https://platform.leolabs.space/visualizations/leo#view=originCountry>) — Explore tracked objects in low Earth orbit. *Visualization · EN · Last available: 2026-10-01*
+- [Redshift 9](<https://redshiftsky.com/redshift-9/>) — Astronomy and planetarium software for exploring the night sky. *Tool · Multilingual · Last available: 2026-10-01*
 - [Stuff in Space](<http://stuffin.space/>) — Explore a three-dimensional view of objects orbiting Earth. *Visualization · EN · Last available: 2026-09-23*
-- [The Scale of the Universe 2](<http://htwins.net/scale2/>) — Zoom between the very small and the very large. *Visualization · Multilingual · Last available: 2026-09-23*
+- [The Scale of the Universe 2](<http://htwins.net/scale2/>) — Zoom between the very small and the very large. *Visualization · Multilingual · Last available: 2026-10-01*
 
 </details>
 
@@ -27,7 +27,7 @@ Stars, satellites and visual journeys through the universe.
 <strong><a href="https://stars.chromeexperiments.com/">100,000 Stars</a></strong><br>
 <sub>Visualization · <img src="../assets/languages/gb.svg" width="16" height="12" alt="" title="English">&nbsp;EN</sub>
 <p align="left">Explore an interactive visualization of our stellar neighborhood.</p>
-<sub>🟢 Last available: 2026-09-23</sub>
+<sub>🟢 Last available: 2026-10-01</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="http://heavens-above.com/"><img src="../assets/previews/heavens-above.jpg" width="240" alt="Screenshot of Heavens-Above" title="Preview captured 2026-09-23"></a><br>
@@ -41,7 +41,7 @@ Stars, satellites and visual journeys through the universe.
 <strong><a href="http://qz.com/296941/interactive-graphic-every-active-satellite-orbiting-earth/">Every Active Satellite</a></strong><br>
 <sub>Visualization · <img src="../assets/languages/gb.svg" width="16" height="12" alt="" title="English">&nbsp;EN</sub>
 <p align="left">A Quartz visual story about satellites orbiting Earth.</p>
-<sub>⚪ Not verified yet</sub>
+<sub>🟢 Last available: 2026-10-01</sub>
 </td>
 </tr>
 <tr>
@@ -50,21 +50,21 @@ Stars, satellites and visual journeys through the universe.
 <strong><a href="http://www.ustream.tv/channel/iss-hdev-payload">ISS Earth Stream</a></strong><br>
 <sub>Video · <img src="../assets/languages/gb.svg" width="16" height="12" alt="" title="English">&nbsp;EN</sub>
 <p align="left">A saved link to the International Space Station&#39;s Earth-viewing stream.</p>
-<sub>🟢 Last available: 2026-09-23</sub>
+<sub>🟢 Last available: 2026-10-01</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="https://platform.leolabs.space/visualizations/leo#view=originCountry"><img src="../assets/previews/leolabs.jpg" width="240" alt="Screenshot of LeoLabs" title="Preview captured 2026-09-23"></a><br>
 <strong><a href="https://platform.leolabs.space/visualizations/leo#view=originCountry">LeoLabs</a></strong><br>
 <sub>Visualization · <img src="../assets/languages/gb.svg" width="16" height="12" alt="" title="English">&nbsp;EN</sub>
 <p align="left">Explore tracked objects in low Earth orbit.</p>
-<sub>🟢 Last available: 2026-09-23</sub>
+<sub>🟢 Last available: 2026-10-01</sub>
 </td>
 <td width="33%" valign="top" align="center">
 <a href="https://redshiftsky.com/redshift-9/"><img src="../assets/previews/redshift.jpg" width="240" alt="Screenshot of Redshift 9" title="Preview captured 2026-09-23"></a><br>
 <strong><a href="https://redshiftsky.com/redshift-9/">Redshift 9</a></strong><br>
 <sub>Tool · <img src="../assets/languages/globe.svg" width="16" height="12" alt="" title="Multiple languages">&nbsp;Multilingual</sub>
 <p align="left">Astronomy and planetarium software for exploring the night sky.</p>
-<sub>🟢 Last available: 2026-09-23</sub>
+<sub>🟢 Last available: 2026-10-01</sub>
 </td>
 </tr>
 <tr>
@@ -80,7 +80,7 @@ Stars, satellites and visual journeys through the universe.
 <strong><a href="http://htwins.net/scale2/">The Scale of the Universe 2</a></strong><br>
 <sub>Visualization · <img src="../assets/languages/globe.svg" width="16" height="12" alt="" title="Multiple languages">&nbsp;Multilingual</sub>
 <p align="left">Zoom between the very small and the very large.</p>
-<sub>🟢 Last available: 2026-09-23</sub>
+<sub>🟢 Last available: 2026-10-01</sub>
 </td>
 <td width="33%"></td>
 </tr>
