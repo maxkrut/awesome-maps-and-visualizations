@@ -2,7 +2,7 @@
 
 # Text index
 
-A compact, searchable view of all 88 entries.
+A compact, searchable view of all 89 entries.
 
 ## Maps & Cartography
 
@@ -83,6 +83,7 @@ A compact, searchable view of all 88 entries.
 
 ## Nature & Weather
 
+- [KoreAves — South Korean Bird Evidence Atlas](<https://koreaves.com/gis/>) — Explore South Korean bird occurrence records by region and inspect linked observation sources and data-coverage limits. *Map · Multilingual · Not verified yet*
 - [OCEARCH Shark Tracker](<https://www.ocearch.org/tracker/>) — Follow tagged sharks and other marine animals. *Map · EN · Last available: 2026-10-01*
 - [AirVisual Earth](<https://www.iqair.com/earth?nav>) — Explore air pollution on an interactive three-dimensional globe. *Map · Multilingual · Not verified yet*
 - [Earth Wind Map](<http://earth.nullschool.net/>) — Explore animated wind, ocean and weather patterns on a globe. *Map · Multilingual · Last available: 2026-10-01*

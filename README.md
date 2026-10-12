@@ -2,7 +2,7 @@
 
 A curated collection of maps, data stories, and visual experiments — with compact previews and last-available dates.
 
-**88 links · 9 categories** · **Checked 2026-10-01**
+**89 links · 9 categories** · **Checked 2026-10-01**
 
 [Browse the text index](catalog/index.md) · [Suggest a link](CONTRIBUTING.md) · [How to maintain this collection](MAINTAINING.md)
 
@@ -39,7 +39,7 @@ A curated collection of maps, data stories, and visual experiments — with comp
 </td>
 <td width="33%" valign="top" align="center">
 <a href="catalog/weather-nature-and-earth.md"><img src="assets/previews/earth-wind.jpg" width="240" alt="Nature &amp; Weather — explore this category"></a><br>
-<strong><a href="catalog/weather-nature-and-earth.md">Nature &amp; Weather</a></strong> <sub>6 entries</sub>
+<strong><a href="catalog/weather-nature-and-earth.md">Nature &amp; Weather</a></strong> <sub>7 entries</sub>
 <p align="left">Weather, wildlife, air quality and the changing natural world.</p>
 </td>
 </tr>
