@@ -558,6 +558,15 @@
     "url": "https://sosedi.tigers.family/"
   },
   {
+    "id": "koreaves",
+    "category": "weather-nature-and-earth",
+    "title": "KoreAves — South Korean Bird Evidence Atlas",
+    "description": "Explore South Korean bird occurrence records by region and inspect linked observation sources and data-coverage limits.",
+    "type": "Map",
+    "language": "Multilingual",
+    "url": "https://koreaves.com/gis/"
+  },
+  {
     "id": "ocearch",
     "category": "weather-nature-and-earth",
     "title": "OCEARCH Shark Tracker",

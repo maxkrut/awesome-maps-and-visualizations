@@ -4,11 +4,12 @@
 
 Weather, wildlife, air quality and the changing natural world.
 
-**6 entries** · Click a preview or title to open the original.
+**7 entries** · Click a preview or title to open the original.
 
 <details>
 <summary>Compact text view · useful on small screens</summary>
 
+- [KoreAves — South Korean Bird Evidence Atlas](<https://koreaves.com/gis/>) — Explore South Korean bird occurrence records by region and inspect linked observation sources and data-coverage limits. *Map · Multilingual · Not verified yet*
 - [OCEARCH Shark Tracker](<https://www.ocearch.org/tracker/>) — Follow tagged sharks and other marine animals. *Map · EN · Last available: 2026-10-01*
 - [AirVisual Earth](<https://www.iqair.com/earth?nav>) — Explore air pollution on an interactive three-dimensional globe. *Map · Multilingual · Not verified yet*
 - [Earth Wind Map](<http://earth.nullschool.net/>) — Explore animated wind, ocean and weather patterns on a globe. *Map · Multilingual · Last available: 2026-10-01*
@@ -20,6 +21,13 @@ Weather, wildlife, air quality and the changing natural world.
 
 <table>
 <tr>
+<td width="33%" valign="top" align="center">
+<a href="https://koreaves.com/gis/"><img src="../assets/preview-unavailable.svg" width="240" alt="Preview unavailable for KoreAves — South Korean Bird Evidence Atlas" title="No screenshot available"></a><br>
+<strong><a href="https://koreaves.com/gis/">KoreAves — South Korean Bird Evidence Atlas</a></strong><br>
+<sub>Map · <img src="../assets/languages/globe.svg" width="16" height="12" alt="" title="Multiple languages">&nbsp;Multilingual</sub>
+<p align="left">Explore South Korean bird occurrence records by region and inspect linked observation sources and data-coverage limits.</p>
+<sub>⚪ Not verified yet</sub>
+</td>
 <td width="33%" valign="top" align="center">
 <a href="https://www.ocearch.org/tracker/"><img src="../assets/previews/ocearch.jpg" width="240" alt="Screenshot of OCEARCH Shark Tracker" title="Preview captured 2026-09-23"></a><br>
 <strong><a href="https://www.ocearch.org/tracker/">OCEARCH Shark Tracker</a></strong><br>
@@ -34,6 +42,8 @@ Weather, wildlife, air quality and the changing natural world.
 <p align="left">Explore air pollution on an interactive three-dimensional globe.</p>
 <sub>⚪ Not verified yet</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top" align="center">
 <a href="http://earth.nullschool.net/"><img src="../assets/previews/earth-wind.jpg" width="240" alt="Screenshot of Earth Wind Map" title="Preview captured 2026-09-23"></a><br>
 <strong><a href="http://earth.nullschool.net/">Earth Wind Map</a></strong><br>
@@ -41,8 +51,6 @@ Weather, wildlife, air quality and the changing natural world.
 <p align="left">Explore animated wind, ocean and weather patterns on a globe.</p>
 <sub>🟢 Last available: 2026-10-01</sub>
 </td>
-</tr>
-<tr>
 <td width="33%" valign="top" align="center">
 <a href="https://www.lightningmaps.org/"><img src="../assets/previews/lightning.jpg" width="240" alt="Screenshot of LightningMaps" title="Preview captured 2026-09-23"></a><br>
 <strong><a href="https://www.lightningmaps.org/">LightningMaps</a></strong><br>
@@ -57,6 +65,8 @@ Weather, wildlife, air quality and the changing natural world.
 <p align="left">Explore animated weather forecasts and atmospheric conditions.</p>
 <sub>🟢 Last available: 2026-10-01</sub>
 </td>
+</tr>
+<tr>
 <td width="33%" valign="top" align="center">
 <a href="https://shademap.app/"><img src="../assets/preview-unavailable.svg" width="240" alt="Preview unavailable for ShadeMap" title="No screenshot available"></a><br>
 <strong><a href="https://shademap.app/">ShadeMap</a></strong><br>
@@ -64,6 +74,8 @@ Weather, wildlife, air quality and the changing natural world.
 <p align="left">Simulate shadows cast by buildings, trees and terrain.</p>
 <sub>🟢 Last available: 2026-10-01</sub>
 </td>
+<td width="33%"></td>
+<td width="33%"></td>
 </tr>
 </table>
 
