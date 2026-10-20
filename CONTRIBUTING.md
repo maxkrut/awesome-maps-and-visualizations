@@ -2,6 +2,24 @@
 
 Share something worth exploring: maps, charts, simulations, historical images, visual essays, open datasets and creative visualization tools are welcome.
 
+## Editorial selection criteria
+
+This is a curated collection. Correct formatting and a working URL are required, but do not guarantee inclusion.
+
+We assess each resource for:
+
+- **Clear value for visitors.** It should offer an engaging visual exploration, explain a subject well, or help with a concrete task.
+- **Distinctive value.** The map, visualization, story, collection or tool should give readers a clear reason to visit. Projects built on existing data are welcome when their presentation, analysis or functionality adds meaningful value.
+- **Substance.** There should be enough useful content, depth or functionality to support the experience being described. A sparse demonstration or landing page alone is usually insufficient.
+- **Usability.** The main experience should work at a stable public address, with navigation and explanations that let visitors understand what they can explore.
+- **Credible presentation.** Descriptions should be factual. Data-based resources should explain their sources, scope and important limitations so visitors can interpret them responsibly.
+
+Small, independent, regional and experimental projects are welcome. Age, popularity and institutional affiliation are not prerequisites; the resource is judged on what it offers visitors today.
+
+You may suggest your own work; disclose your connection and explain its distinctive value, including one or two concrete things a visitor can explore or do. Promotion or gaining a backlink alone is not a reason for inclusion.
+
+Selection remains an editorial decision. Maintainers may decline a technically correct submission that does not meet these criteria or fit the collection's current focus.
+
 ## Add an entry
 
 Edit `data/links.json` and use an existing category:
