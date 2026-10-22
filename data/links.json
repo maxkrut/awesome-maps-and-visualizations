@@ -790,5 +790,14 @@
     "type": "Tool",
     "language": "EN",
     "url": "https://cosmograph.app/"
+  },
+  {
+    "id": "artigram-life-expectancy-income",
+    "category": "society-culture-and-data-stories",
+    "title": "Life Expectancy vs Income (ArtiGram)",
+    "description": "Guess first, then explore 199 countries from 1990 to 2022 with life expectancy plotted against income per person.",
+    "type": "Visualization",
+    "language": "EN",
+    "url": "https://artigram.cafeboon.com/p/hkg6t8v"
   }
 ]
