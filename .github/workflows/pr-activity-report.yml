@@ -1,0 +1,49 @@
+name: PR activity report
+
+on:
+  pull_request_target:
+    types: [opened, reopened]
+  workflow_dispatch:
+    inputs:
+      pr_number:
+        description: Pull request number in this repository
+        required: true
+        type: string
+      preview_only:
+        description: Preview in the run summary without posting a comment
+        default: true
+        type: boolean
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: pr-activity-report-${{ github.event.pull_request.number || inputs.pr_number }}
+  cancel-in-progress: false
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      # Only trusted base-branch code is loaded; never check out the PR head.
+      - name: Check out report script
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          ref: ${{ github.sha }}
+          persist-credentials: false
+          sparse-checkout: scripts
+
+      - name: Report activity when review signals are present
+        uses: actions/github-script@373c709c69115d41ff229c7e5df9f8788daa9553 # v9
+        env:
+          REPORT_PR_NUMBER: ${{ inputs.pr_number }}
+          REPORT_PREVIEW_ONLY: ${{ github.event_name == 'workflow_dispatch' && inputs.preview_only }}
+        with:
+          retries: 2
+          script: |
+            const { pathToFileURL } = require('node:url');
+            const scriptUrl = pathToFileURL(`${process.env.GITHUB_WORKSPACE}/scripts/pr-activity-report.mjs`);
+            const { default: report } = await import(scriptUrl.href);
+            await report({ github, context, core });

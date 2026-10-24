@@ -8,7 +8,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build-catalog.mjs",
-    "test": "node scripts/validate-catalog.mjs",
+    "test": "node scripts/validate-catalog.mjs && node --test scripts/pr-activity-report.test.mjs",
     "capture": "node scripts/capture-previews.mjs",
     "preview": "node scripts/preview.mjs",
     "check-links": "pwsh -NoProfile -File scripts/check_links.ps1"

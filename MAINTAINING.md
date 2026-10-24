@@ -70,6 +70,25 @@ Open `http://127.0.0.1:4173`. This uses a GitHub-style Markdown stylesheet for l
 
 ## Editorial decisions
 
+See the [editorial selection criteria](CONTRIBUTING.md#editorial-selection-criteria) when reviewing submissions.
+
 Static historical maps, visual essays and non-geographic visualizations are welcome. A new review decision must explicitly authorize removing an existing entry. Prefer the entry page of a service or project over personal coordinates, dates, camera settings or filters; retain path segments and parameters that identify the actual project or language. Keep one entry per service unless separate works are intentionally curated.
 
 Cards center the preview, linked title, format and language label; descriptions stay left-aligned. Language cues use local SVG assets in `assets/languages/`: Russian and UK flags for RU and EN, a globe for Multilingual, and no national flag for Latin. The written language label must remain visible.
+
+## PR activity reports
+
+`.github/workflows/pr-activity-report.yml` checks public activity when an external human contributor opens or reopens a PR. It stays quiet unless one of these thresholds is reached in the preceding 14 days, excluding this repository and repositories owned by the contributor:
+
+- PRs to at least **4 different awesome-list repositories**.
+- The same normalized full title as the current PR in at least **3 other repositories**; generic titles such as "Update README" are ignored.
+- A website linked in the current PR's description or added diff lines appears in descriptions of PRs to at least **3 other repositories**. Common shared hosts such as GitHub and Wikipedia are excluded from this comparison.
+- At least **20 PRs across 10 different repositories**.
+
+The English comment includes observed patterns, a compact activity table, up to 15 linked examples, a public search link and data limitations. Age is context only; account popularity never triggers a report. Own repositories are excluded by owner login; organization membership is not inferred. Counts describe public search results, not contribution quality. Closed PRs can also have been incorporated manually.
+
+The workflow only creates or updates its own report comment. It does not label, close, block or merge PRs. A repeat run updates the existing report. If no threshold is reached, it posts nothing; any previous report remains a dated snapshot. Search failures are recorded in the run summary and do not by themselves trigger a comment. Search pagination stops at GitHub's 1,000-result cap; partial data and unavailable diffs are disclosed.
+
+Use **Actions → PR activity report → Run workflow** with a PR number to inspect an existing submission. **Preview only** defaults to true and writes the report to the run summary without commenting. Closed PRs always use preview mode. The job uses the built-in GitHub token and trusted base-branch code; it never checks out or executes the contributor's code. No external service or API key is needed.
+
+Run the focused checks with `node --test scripts/pr-activity-report.test.mjs`. The implementation is original repository code; design references include [PR Spam Guard](https://github.com/Zijian-Ni/awesome-ai-agents-2026/blob/main/.github/workflows/pr-spam-guard.yml), [Contributor Report](https://github.com/jdiegosierra/contributor-report), and [Contributor Summary](https://github.com/kurehajime/contributor-summary).
