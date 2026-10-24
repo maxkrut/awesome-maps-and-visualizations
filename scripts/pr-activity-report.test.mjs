@@ -51,6 +51,26 @@ test('large volumes require both PR and distinct repository thresholds', () => {
   assert.match(reviewSignals(Array.from({ length: 20 }, (_, i) => pr(i)), current, new Set())[0].text, /20 public PRs/);
 });
 
+test('mass promotion warning starts at ten other repositories and also covers twenty', () => {
+  for (const count of [9, 10, 20]) {
+    const prs = Array.from({ length: count }, (_, i) => pr(i + 1, { body: 'I built this site: https://example.org/guide/' }));
+    const signals = reviewSignals(prs, current, new Set(['example.org']));
+    const report = renderReport({ current, result: { prs, total: count, notes: [] }, signals,
+      query: 'query', since: '2026-10-10', now });
+    assert.equal(report.includes('possible promotional campaign'), count >= 10);
+    assert.equal(report.includes('Strong promotional-spam signal'), count >= 10);
+    if (count >= 10) assert(report.includes(`${count} other repositories within 14 days`));
+  }
+});
+
+test('high activity with unrelated websites is not called a promotional campaign', () => {
+  const prs = Array.from({ length: 20 }, (_, i) => pr(i + 1, { body: `https://unrelated-${i}.org/` }));
+  const signals = reviewSignals(prs, current, new Set(['example.org']));
+  const report = renderReport({ current, result: { prs, total: 20, notes: [] }, signals,
+    query: 'query', since: '2026-10-10', now });
+  assert.doesNotMatch(report, /Strong promotional-spam signal|possible promotional campaign/);
+});
+
 test('search fetches additional pages and keeps exact API totals separate from samples', async () => {
   const pages = [];
   const github = { rest: { search: { issuesAndPullRequests: async ({ page, q }) => {

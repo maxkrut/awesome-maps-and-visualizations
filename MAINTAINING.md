@@ -87,6 +87,8 @@ Cards center the preview, linked title, format and language label; descriptions 
 
 The English comment includes observed patterns, a compact activity table, up to 15 linked examples, a public search link and data limitations. Age is context only; account popularity never triggers a report. Own repositories are excluded by owner login; organization membership is not inferred. Counts describe public search results, not contribution quality. Closed PRs can also have been incorporated manually.
 
+When the same website is mentioned in PR descriptions submitted by the author to **10 or more other repositories** in the window, the report explicitly highlights a **strong promotional-spam signal** and a possible mass promotional campaign. High activity alone does not receive that wording. The repeated-website count and linked examples provide the evidence for this warning.
+
 The workflow only creates or updates its own report comment. It does not label, close, block or merge PRs. A repeat run updates the existing report. If no threshold is reached, it posts nothing; any previous report remains a dated snapshot. Search failures are recorded in the run summary and do not by themselves trigger a comment. Search pagination stops at GitHub's 1,000-result cap; partial data and unavailable diffs are disclosed.
 
 Use **Actions → PR activity report → Run workflow** with a PR number to inspect an existing submission. **Preview only** defaults to true and writes the report to the run summary without commenting. Closed PRs always use preview mode. The job uses the built-in GitHub token and trusted base-branch code; it never checks out or executes the contributor's code. No external service or API key is needed.

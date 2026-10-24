@@ -42,6 +42,9 @@ export function reviewSignals(prs, current, linkedHosts) {
   for (const host of [...linkedHosts].sort()) {
     const matches = prs.filter(pr => websiteHosts(pr.body).has(host));
     if (uniqueRepos(matches) >= 3) signals.push({
+      kind: 'repeated-website',
+      host,
+      repositoryCount: uniqueRepos(matches),
       text: `Descriptions of PRs to ${uniqueRepos(matches)} other repositories mention ${host}, which is also linked by this PR (review threshold: 3).`,
       matches,
     });
@@ -99,13 +102,17 @@ export function renderReport({ current, profile, result, signals, query, since, 
   const created = profile?.created_at ? Date.parse(profile.created_at) : NaN;
   const accountAge = Number.isFinite(created) ? `${Math.max(0, Math.floor((now - created) / DAY))} days` : 'Unavailable';
   const complete = result.notes.length === 0;
+  const campaign = signals.filter(signal => signal.kind === 'repeated-website' && signal.repositoryCount >= 10)
+    .sort((a, b) => b.repositoryCount - a.repositoryCount)[0];
   const evidence = [...new Map(signals.flatMap(signal => signal.matches).map(pr => [pr.html_url, pr])).values()];
   const rows = evidence.slice(0, 15).map(pr => `| [${escapeText(repositoryOf(pr))}#${pr.number}](${pr.html_url}) | ${escapeText(String(pr.title).slice(0, 120))} | ${stateOf(pr)} |`);
   return [
     MARKER,
-    '## PR activity report',
+    campaign ? '## PR activity report: possible promotional campaign' : '## PR activity report',
     '',
-    'Recent public activity has patterns worth a maintainer\'s review. This is context, not a spam verdict or an assessment of the resource\'s quality.',
+    campaign
+      ? `**Strong promotional-spam signal:** this PR links ${escapeText(campaign.host)}; the same author has submitted PRs whose descriptions mention that website to **${campaign.repositoryCount} other repositories within 14 days**. This pattern is consistent with a mass promotional campaign and warrants editorial review.`
+      : 'Recent public activity has patterns worth a maintainer\'s review. The observations below explain why a report was posted.',
     '',
     `**Contributor:** [${escapeText(current.user.login)}](https://github.com/${current.user.login}) · **Account age:** ${accountAge} (context only)`,
     `**Window:** ${since} to ${now.toISOString()} · **Checked:** ${now.toISOString()}`,
@@ -193,6 +200,7 @@ export default async function runReport({ github, context, core, env = process.e
     core.info('No new PR comment. Existing reports, if any, remain dated snapshots.');
     return;
   }
+  core.info(`Review signals: ${signals.map(signal => signal.text).join(' ')}`);
   let profile;
   try { ({ data: profile } = await github.rest.users.getByUsername({ username: author })); }
   catch { notes.push('Account age was unavailable; it is not used to detect patterns.'); }
