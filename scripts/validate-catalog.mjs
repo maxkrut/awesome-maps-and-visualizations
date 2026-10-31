@@ -17,7 +17,8 @@ assert.deepEqual(pkg.keywords, project.topics, 'Package keywords must match GitH
 assert.equal(new Set(project.topics).size, project.topics.length, 'Duplicate topics');
 assert(project.topics.every(topic => /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(topic)), 'Invalid topic spelling');
 const readme = await read('README.md');
-assert(readme.startsWith('# ' + project.title + '\n'));
+assert(readme.startsWith('<h1 align="center">\n'));
+assert(readme.includes('alt="' + project.title.replaceAll('&', '&amp;') + '"'), 'The wordmark must retain the project title');
 assert(readme.includes(project.description));
 assert(!readme.includes('assets/banner.svg'), 'The removed hero banner must not return');
 assert.equal(new Set(links.map(item => item.id)).size, links.length, 'Duplicate IDs');

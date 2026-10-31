@@ -100,7 +100,12 @@ const categoryCard = category => {
     esc(category.description) + '</p>\n</td>';
 };
 await save('README.md', [
-  '# ' + project.title, '',
+  '<h1 align="center">',
+  '  <picture>',
+  '    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">',
+  '    <img src="assets/wordmark.png" alt="' + esc(project.title) + '" width="284">',
+  '  </picture>',
+  '</h1>', '',
   project.description, '',
   '**' + links.length + ' links · ' + categories.length + ' categories**' + (latest ? ' · **Checked ' + date(latest) + '**' : ''), '',
   '[Browse the text index](catalog/index.md) · [Suggest a link](CONTRIBUTING.md) · [How to maintain this collection](MAINTAINING.md)', '',

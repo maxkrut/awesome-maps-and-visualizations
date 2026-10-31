@@ -1,4 +1,9 @@
-# Awesome Maps & Visualizations
+<h1 align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
+    <img src="assets/wordmark.png" alt="Awesome Maps &amp; Visualizations" width="284">
+  </picture>
+</h1>
 
 A curated collection of maps, data stories, and visual experiments — with compact previews and last-available dates.
 

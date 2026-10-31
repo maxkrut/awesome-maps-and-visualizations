@@ -12,6 +12,10 @@ A source link is not itself permission to reproduce a work. This project has not
 
 If you believe a preview should be corrected, attributed differently, or removed, [open an issue](https://github.com/maxkrut/awesome-maps-and-visualizations/issues) identifying the image or entry and the relevant source. Do not include private information.
 
+## Wordmark typography
+
+The wordmark images in `assets/wordmark.png` and `assets/wordmark-dark.png` use Geologica 600, Copyright 2020 The Geologisk Project Authors. The font is available from [Google Fonts](https://github.com/google/fonts/tree/main/ofl/geologica) under the [SIL Open Font License 1.1](https://github.com/google/fonts/blob/main/ofl/geologica/OFL.txt). These images are original artwork created with the font; no font software is distributed in this repository.
+
 ## Dependencies
 
 Third-party software dependencies retain their respective licenses. Dependency versions and available license identifiers are recorded in [package-lock.json](package-lock.json); consult each dependency's own license for its full terms. The project's MIT license does not replace those terms.
