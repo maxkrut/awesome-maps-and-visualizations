@@ -4,7 +4,7 @@
 
 Panoramas, city walks, radio stations and windows onto other places.
 
-**5 entries** · Click a preview or title to open the original.
+**6 entries** · Click a preview or title to open the original.
 
 <details>
 <summary>Compact text view · useful on small screens</summary>
@@ -14,6 +14,7 @@ Panoramas, city walks, radio stations and windows onto other places.
 - [Radio Garden](<https://radio.garden/>) — Explore the globe by listening to local radio stations. *Map · EN · Last available: 2026-11-01*
 - [Kuula](<https://kuula.co/explore>) — Browse immersive 360-degree panoramas and virtual tours. *Virtual Tour · EN · Last available: 2026-11-01*
 - [All The Views](<https://alltheviews.world/>) — Explore a collection of views and places from around the world. *Virtual Tour · EN · Last available: 2026-11-01*
+- [StagePeek](<https://stagepeek.live/>) — Explore 2D seating charts and interactive 3D concert stage sightline previews across 201 global arenas, stadiums, and theaters. *Virtual Tour · Multilingual · Last available: 2026-11-26*
 
 </details>
 
@@ -56,7 +57,13 @@ Panoramas, city walks, radio stations and windows onto other places.
 <p align="left">Explore a collection of views and places from around the world.</p>
 <sub>🟢 Last available: 2026-11-01</sub>
 </td>
-<td width="33%"></td>
+<td width="33%" valign="top" align="center">
+<a href="https://stagepeek.live/"><img src="../assets/preview-unavailable.svg" width="240" alt="Preview unavailable for StagePeek" title="No screenshot available"></a><br>
+<strong><a href="https://stagepeek.live/">StagePeek</a></strong><br>
+<sub>Virtual Tour · <img src="../assets/languages/globe.svg" width="16" height="12" alt="" title="Multiple languages">&nbsp;Multilingual</sub>
+<p align="left">Explore 2D seating charts and interactive 3D concert stage sightline previews across 201 global arenas, stadiums, and theaters.</p>
+<sub>🟢 Last available: 2026-11-26</sub>
+</td>
 </tr>
 </table>
 

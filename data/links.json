@@ -790,5 +790,14 @@
     "type": "Tool",
     "language": "EN",
     "url": "https://cosmograph.app/"
+  },
+  {
+    "id": "stagepeek",
+    "category": "virtual-exploration",
+    "title": "StagePeek",
+    "description": "Explore 2D seating charts and interactive 3D concert stage sightline previews across 201 global arenas, stadiums, and theaters.",
+    "type": "Virtual Tour",
+    "language": "Multilingual",
+    "url": "https://stagepeek.live/"
   }
 ]
