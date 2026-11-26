@@ -614,5 +614,12 @@
     "http_status": null,
     "checked_at": "2026-11-01T10:26:50Z",
     "last_ok": null
+  },
+  {
+    "url": "https://stagepeek.live/",
+    "state": "ok",
+    "http_status": 200,
+    "checked_at": "2026-11-26T04:00:00Z",
+    "last_ok": "2026-11-26"
   }
 ]

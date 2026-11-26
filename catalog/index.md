@@ -2,7 +2,7 @@
 
 # Text index
 
-A compact, searchable view of all 88 entries.
+A compact, searchable view of all 89 entries.
 
 ## Maps & Cartography
 
@@ -108,6 +108,7 @@ A compact, searchable view of all 88 entries.
 - [Radio Garden](<https://radio.garden/>) — Explore the globe by listening to local radio stations. *Map · EN · Last available: 2026-11-01*
 - [Kuula](<https://kuula.co/explore>) — Browse immersive 360-degree panoramas and virtual tours. *Virtual Tour · EN · Last available: 2026-11-01*
 - [All The Views](<https://alltheviews.world/>) — Explore a collection of views and places from around the world. *Virtual Tour · EN · Last available: 2026-11-01*
+- [StagePeek](<https://stagepeek.live/>) — Explore 2D seating charts and interactive 3D concert stage sightline previews across 201 global arenas, stadiums, and theaters. *Virtual Tour · Multilingual · Last available: 2026-11-26*
 
 ## Tools & Experiments
 

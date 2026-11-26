@@ -7,7 +7,7 @@
 
 A curated collection of maps, data stories, and visual experiments — with compact previews and last-available dates.
 
-**88 links · 9 categories** · **Checked 2026-11-01**
+**89 links · 9 categories** · **Checked 2026-11-26**
 
 [Browse the text index](catalog/index.md) · [Suggest a link](CONTRIBUTING.md) · [How to maintain this collection](MAINTAINING.md)
 
@@ -56,7 +56,7 @@ A curated collection of maps, data stories, and visual experiments — with comp
 </td>
 <td width="33%" valign="top" align="center">
 <a href="catalog/virtual-exploration.md"><img src="assets/previews/kuula.jpg" width="240" alt="Virtual Exploration — explore this category"></a><br>
-<strong><a href="catalog/virtual-exploration.md">Virtual Exploration</a></strong> <sub>5 entries</sub>
+<strong><a href="catalog/virtual-exploration.md">Virtual Exploration</a></strong> <sub>6 entries</sub>
 <p align="left">Panoramas, city walks, radio stations and windows onto other places.</p>
 </td>
 <td width="33%" valign="top" align="center">
